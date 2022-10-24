@@ -1,0 +1,14 @@
+Download ffmpeg.exe and gifski.exe and put the binary into the this folder.
+
+FFMPEG Binary: 
+**Download command-line binary instead of GUI application**
+https://ffmpeg.org/download.html#repositories
+https://www.gyan.dev/ffmpeg/builds/ ----> ffmpeg-5.0.1-essentials_build.zip
+https://github.com/BtbN/FFmpeg-Builds/releases ----> ffmpeg-master-latest-win64-gpl.zip
+
+
+GIFSKI Binary:
+**Download command-line binary instead of GUI application**
+https://gif.ski/
+https://github.com/ImageOptim/gifski/releases ----> gifski-1.7.2.tar.xz
+

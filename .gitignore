@@ -1,0 +1,3 @@
+dependencies/*
+!dependencies/put_ffmpeg_and_gifski_here.txt
+frames
