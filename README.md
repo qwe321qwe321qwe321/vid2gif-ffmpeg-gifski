@@ -1,5 +1,5 @@
 # vid2gif-ffmpeg-gifski
-Simple batch scripts for making high quality compressed gifs from videos on Windows.
+Simple batch scripts for making high-quality compressed gifs from videos on Windows based on FFmpeg and Gifski.
 
 # Installation
 
@@ -7,7 +7,7 @@ You need to have [ffmpeg](https://ffmpeg.org/download.html#repositories) and [gi
 
 Download the binary execuations from their official website.
 
-## FFmpeg Binary
+### 1. FFmpeg Binary
 You can find the binary from the any one of following links: 
 
 **Download command-line binary instead of GUI application**
@@ -16,27 +16,25 @@ You can find the binary from the any one of following links:
 * https://www.gyan.dev/ffmpeg/builds/ ----> ffmpeg-5.0.1-essentials_build.zip
 * https://github.com/BtbN/FFmpeg-Builds/releases ----> ffmpeg-master-latest-win64-gpl.zip
 
-## GIFSKI Binary:
+### 2. Gifski Binary:
 You can find the binary from the any one of following links: 
 
 **Download command-line binary instead of GUI application**
 * https://gif.ski/
 * https://github.com/ImageOptim/gifski/releases ----> gifski-1.7.2.tar.xz
 
-## Put `ffmpeg.exe` and `gifski.exe` into the `/dependencies/`
+### 3. Put `ffmpeg.exe` and `gifski.exe` into the `/dependencies/`
 ![](./~imgs/image1.png)
 
 # Usage
-## Drag and drop
-Just drag your video file into `vid2gif_prompt_mode.bat` and set the parameters by prompt.
-
-https://user-images.githubusercontent.com/23000374/197606357-d7fa8d8b-d9f1-4eea-91a1-d386ab2356bf.mp4
-
-Or `vid2gif_600w_23fps_q90.bat` to make a gif with default params.
+## Drag and drop 
+Just drag your video file into `vid2gif_600w_23fps_q90.bat` to make a gif with default params.
 
 https://user-images.githubusercontent.com/23000374/197606381-fa4de710-5d74-42cb-96f1-bcd56fb17030.mp4
 
+Or `vid2gif_prompt_mode.bat` and set the params by prompt.
 
+https://user-images.githubusercontent.com/23000374/197606357-d7fa8d8b-d9f1-4eea-91a1-d386ab2356bf.mp4
 
 ## Command-line
 
@@ -55,7 +53,7 @@ The default conversion from video to gif with 600 width, 23 fps, 90 quality.
 vid2gif_600w_23fps_q90.bat <input>
 ```
 ### `scripts\to_gif_gifski_cmd.bat`
-FFmpeg to extract the image sequence and Gifski to make a high quality gif.
+FFmpeg to extract the image sequence and Gifski to make a high-quality gif.
 ```
 .\scripts\to_gif_gifski_cmd.bat <input> <output> <width> <fps> <quality>
 ```
