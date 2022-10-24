@@ -30,27 +30,36 @@ You can find the binary from the any one of following links:
 ## Drag and drop
 Just drag your video file into `vid2gif_prompt_mode.bat` and set the parameters by prompt.
 
+https://user-images.githubusercontent.com/23000374/197606357-d7fa8d8b-d9f1-4eea-91a1-d386ab2356bf.mp4
 
 Or `vid2gif_600w_23fps_q90.bat` to make a gif with default params.
 
+https://user-images.githubusercontent.com/23000374/197606381-fa4de710-5d74-42cb-96f1-bcd56fb17030.mp4
+
+
 
 ## Command-line
-## `vid2gif_prompt_mode.bat`
+
+
+https://user-images.githubusercontent.com/23000374/197606405-7bfb5779-875b-4454-977d-9cfeceedd0a0.mp4
+
+
+### `vid2gif_prompt_mode.bat`
 The prompt mode will ask you parameters.
 ```
 vid2gif_prompt_mode.bat <input>
 ```
-## `vid2gif_600w_23fps_q90.bat`
+### `vid2gif_600w_23fps_q90.bat`
 The default conversion from video to gif with 600 width, 23 fps, 90 quality.
 ```
 vid2gif_600w_23fps_q90.bat <input>
 ```
-## `scripts\to_gif_gifski_cmd.bat`
+### `scripts\to_gif_gifski_cmd.bat`
 FFmpeg to extract the image sequence and Gifski to make a high quality gif.
 ```
 .\scripts\to_gif_gifski_cmd.bat <input> <output> <width> <fps> <quality>
 ```
-## `scripts\to_gif_ffmpeg_cmd.bat`
+### `scripts\to_gif_ffmpeg_cmd.bat`
 FFmpeg directly convert a video file to a gif.
 ```
 .\scripts\to_gif_ffmpeg_cmd.bat <input> <output> <width> <fps>
