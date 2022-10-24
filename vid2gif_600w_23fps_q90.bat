@@ -9,4 +9,3 @@ set _extension=%~x1
 call .\scripts\to_gif_gifski_cmd.bat "%_filename%%_extension%" "%_filename%.gif" 600 23 90
 endlocal
 popd
-pause
