@@ -62,7 +62,7 @@ Or `vid2gif_600w_20fps_q90.bat` to make a gif with default params.
 https://user-images.githubusercontent.com/23000374/197606357-d7fa8d8b-d9f1-4eea-91a1-d386ab2356bf.mp4
 
 ## 'Send to'(傳送到) Menu.
-After adding the script to `SendTo` folder, you should be able to see the shortcut on 'Send to' menu. (See [Installation]() section)
+After adding the script to `SendTo` folder, you should be able to see the shortcut on 'Send to' menu. (See [Installation](#optional-add-to-send-to傳送到-menu) section)
 
 
 https://user-images.githubusercontent.com/23000374/198987697-d22ee6e9-226f-4918-9481-ad60ba81c502.mp4
