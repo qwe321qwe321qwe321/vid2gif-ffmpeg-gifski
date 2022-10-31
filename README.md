@@ -48,7 +48,7 @@ https://user-images.githubusercontent.com/23000374/198987721-cc5ee054-e858-4076-
 ### How does it work?
 `Win`+`R` and type `Shell:sendto`, you'll see the `SendTo` folder, and that it is.
 
-You can do it on your own via creating a shortcut and move it to the 'SendTo' folder.
+You can do it on your own by creating a shortcut and moving it to the 'SendTo' folder.
 
 # Usage
 ## Drag and drop
