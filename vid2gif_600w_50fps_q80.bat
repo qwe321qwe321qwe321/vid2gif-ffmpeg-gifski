@@ -9,6 +9,6 @@ set width=600
 set fps=50
 set quality=80
 
-call .\scripts\to_gif_gifski_cmd.bat "%_filename%%_extension%" "%_filename%_%width%w_%fps%f_%quality%q.gif" %width% %fps% %quality%
+call .\scripts\to_gif_gifski_cmd.bat "%_filename%%_extension%" "%_filename%-%width%w_%fps%fps_%quality%q.gif" %width% %fps% %quality%
 endlocal
 popd
