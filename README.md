@@ -39,7 +39,7 @@ You can find the binary from the any one of following links:
 
 ## (Optional) Add to 'Send to'(傳送到) Menu.
 Drag a `.bat` file that you want to make into `add_bat_to_sendto_menu.bat` and name your shortcut.
-
+> WARNING: It will no longer work if you move the batch file to elsewhere.
 
 https://user-images.githubusercontent.com/23000374/198987721-cc5ee054-e858-4076-881a-6f294eac1c79.mp4
 
@@ -47,6 +47,8 @@ https://user-images.githubusercontent.com/23000374/198987721-cc5ee054-e858-4076-
 
 ### How does it work?
 `Win`+`R` and type `Shell:sendto`, you'll see the `SendTo` folder, and that it is.
+
+You can do it on your own via creating a shortcut and move it to the 'SendTo' folder.
 
 # Usage
 ## Drag and drop
