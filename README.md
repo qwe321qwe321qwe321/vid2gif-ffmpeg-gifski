@@ -31,7 +31,7 @@ You can find the binary from the any one of following links:
 Just drag your video file into `vid2gif_prompt_mode.bat` and set the parameters by prompt.
 
 
-Or `vid2gif_600w_23fps_q90.bat` to make a gif with default params.
+Or `vid2gif_600w_20fps_q90.bat` to make a gif with default params.
 
 
 ## Command-line
@@ -40,10 +40,10 @@ The prompt mode will ask you parameters.
 ```
 vid2gif_prompt_mode.bat <input>
 ```
-## `vid2gif_600w_23fps_q90.bat`
-The default conversion from video to gif with 600 width, 23 fps, 90 quality.
+## `vid2gif_600w_20fps_q90.bat`
+The default conversion from video to gif with 600 width, 20 fps, 90 quality.
 ```
-vid2gif_600w_23fps_q90.bat <input>
+vid2gif_600w_20fps_q90.bat <input>
 ```
 ## `scripts\to_gif_gifski_cmd.bat`
 FFmpeg to extract the image sequence and Gifski to make a high quality gif.
@@ -65,5 +65,5 @@ FFmpeg directly convert a video file to a gif.
 |  input  |               the filename  of the source video. (e.g. `myvideo.mp4`)               |
 | output  |                 the filename of the output gif. (e.g. `myGif.gif`)                  |
 |  width  |                     the width of the output gif.  (default 600)                     |
-|   fps   |                    the framerate of the output gif. (default 23)                    |
+|   fps   |                    the framerate of the output gif. (default 20)                    |
 | quality | the compression quality of the gif [0 - 100] (See [gifski page](https://gif.ski/)). |

@@ -8,9 +8,9 @@ REM d is drive, p is path, n is name, x is extension.
 set _filename=%~dpn1
 set _extension=%~x1
 set width=600
-set fps=23
+set fps=20
 set /p width="Output Width(default 600): "
-set /p fps="Output Frame Rate(default 23): "
+set /p fps="Output Frame Rate(default 20): "
 
 :ASK_GIFSKI
 set USE_GIFSKI=Y
@@ -33,5 +33,3 @@ GOTO END
 :END
 @endlocal
 popd
-
-pause
