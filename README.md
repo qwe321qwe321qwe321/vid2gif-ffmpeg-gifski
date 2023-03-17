@@ -68,7 +68,12 @@ After adding the script to `SendTo` folder, you should be able to see the shortc
 https://user-images.githubusercontent.com/23000374/198987697-d22ee6e9-226f-4918-9481-ad60ba81c502.mp4
 
 
+## Aspect Ratio
+The scripts can directly crop and pad the input video to a specific aspect ratio. 
 
+For example, if you have a video with a resolution of `1920x1080`, and you put it into the batch with the following parameters: `600 width, 20 fps, 4/3 aspect, 90 quality`, you will get a gif with a resolution of `600x450`.
+
+There are some useful presets in 
 
 
 ## Command-line
@@ -98,22 +103,23 @@ vid2gif_600w_50fps_q90.bat <input>
 ### `scripts\to_gif_gifski_cmd.bat`
 FFmpeg to extract the image sequence and Gifski to make a high quality gif.
 ```
-.\scripts\to_gif_gifski_cmd.bat <input> <output> <width> <fps> <quality>
+.\scripts\to_gif_gifski_cmd.bat <input> <output> <width> <fps> <aspect_ratio> <quality>
 ```
 ### `scripts\to_gif_ffmpeg_cmd.bat`
 FFmpeg directly convert a video file to a gif.
 ```
-.\scripts\to_gif_ffmpeg_cmd.bat <input> <output> <width> <fps>
+.\scripts\to_gif_ffmpeg_cmd.bat <input> <output> <width> <fps> <aspect_ratio>
 ```
 
 # Parameters
 
 
 
-|  Name   |                                     Description                                     |
-| :-----: | :---------------------------------------------------------------------------------: |
-|  input  |               the filename  of the source video. (e.g. `myvideo.mp4`)               |
-| output  |                 the filename of the output gif. (e.g. `myGif.gif`)                  |
-|  width  |                     the width of the output gif.  (default 600)                     |
-|   fps   |                    the framerate of the output gif. (default 20)                    |
-| quality | the compression quality of the gif [0 - 100] (See [gifski page](https://gif.ski/)). |
+|     Name     |                                                   Description                                                   |
+| :----------: | :-------------------------------------------------------------------------------------------------------------: |
+|    input     |                             the filename  of the source video. (e.g. `myvideo.mp4`)                             |
+|    output    |                               the filename of the output gif. (e.g. `myGif.gif`)                                |
+|    width     |                                   the width of the output gif.  (default 600)                                   |
+|     fps      |                                  the framerate of the output gif. (default 20)                                  |
+| aspect ratio | the aspect ratio of the output gif (e.g. `16/9`, `4/3`, `22/9`. The default value of `-1` means not to change). |
+|   quality    |               the compression quality of the gif [0 - 100] (See [gifski page](https://gif.ski/)).               |
