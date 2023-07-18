@@ -1,4 +1,6 @@
 # vid2gif-ffmpeg-gifski
+[[English](/README.md) / [中文](/README_ZH.md)]
+
 Simple batch scripts for making high quality compressed gifs from videos on Windows.
 
 - [vid2gif-ffmpeg-gifski](#vid2gif-ffmpeg-gifski)
